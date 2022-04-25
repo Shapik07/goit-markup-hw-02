@@ -8,6 +8,11 @@
 body {
     font-family: 'Roboto';
     background-color: #E5E5E5;
+    color: var(--header-color-text);
+}
+
+ul {
+    list-style-type: none;
 }
 
 /* Шапка сайта */
@@ -48,14 +53,12 @@ body {
 }
 
 .site-nav a {
-    font-style: normal;
     font-weight: 500;
     color: var(--header-color-text);
     text-decoration: none;
 }
 
 .contacts-nav a {
-    font-style: normal;
     font-weight: 500;
     color: var(--header-color-text);
     text-decoration: none;
@@ -63,16 +66,17 @@ body {
 
 /* Main */
 
+.work 
+.team {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+color: var(--header-color-text);
+}
+
 /* Секция-Герой */
 
 .hero-title {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-text-align: center;
-letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
@@ -80,26 +84,23 @@ color: #FFFFFF;
 .hero-btn {
     background-color: var(--focus-color-text);
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 /* Секция преимуществ */
 
 .Advantages-title {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1,14;
 text-transform: uppercase;
 color: var(--header-color-text);
 }
 
 .Advantages-text {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1,71;
 letter-spacing: 0.03em;
 color: var(--contacts-text-color);
 }
@@ -110,20 +111,60 @@ color: var(--contacts-text-color);
 /* Наша команда */
 
 .workers {
-    font-weight: 500;
+font-weight: 500;
 font-size: 16px;
-line-height: 19px;
-text-align: center;
+line-height: 1,19;
 letter-spacing: 0.03em;
 color: var(--header-color-text);
 }
 
 .Position {
-    font-weight: 400;
+font-weight: 400;
 font-size: 16px;
-line-height: 19px;
+line-height: 1,19;
 letter-spacing: 0.03em;
 color: var(--contacts-text-color);
 }
 
 /* Footer */
+
+.navigation {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1,71;
+color: #FFFFFF;
+}
+
+/* Портфолио */
+
+.list-button {
+    background-color: #F5F4FA;
+    color: #212121;
+    cursor: pointer;
+}
+
+.list-button:hover {
+    background-color: var(--focus-color-text);
+}
+
+.list-button:focus {
+    background-color: var(--focus-color-text);
+}
+
+/* категории */
+
+.list-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+color: var(--header-color-text);
+}
+
+.list-position {
+font-weight: 400;
+font-size: 16px;
+line-height: 1,88;
+color: var(--contacts-text-color);
+}
