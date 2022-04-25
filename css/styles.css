@@ -1,8 +1,20 @@
+:root {
+    --primery-background-color: #E5E5E5;
+    --contacts-text-color: #757575;
+    --header-color-text: #212121
+}
+
 body {
     font-family: 'Roboto';
 }
 
 /* Шапка сайта */
+
+.page-header a,
+.footer-nav a,
+.footer-logo {
+    text-decoration: none;
+}
 
 .logo {
     color: #000000;
@@ -17,8 +29,19 @@ body {
     text-decoration: none;
 }
 
-.hpage-header {
+.site-nav a {
     font-style: normal;
     font-weight: 500;
     color: #212121;
+    text-decoration: none;
 }
+
+.contacts-nav a {
+    font-style: normal;
+    font-weight: 500;
+    color: #757575;
+    text-decoration: none;
+}
+
+/* Уникальный контент */
+
