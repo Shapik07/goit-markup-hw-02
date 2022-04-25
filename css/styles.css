@@ -1,0 +1,24 @@
+body {
+    font-family: 'Roboto';
+}
+
+/* Шапка сайта */
+
+.logo {
+    color: #000000;
+    font-family: 'Raleway';
+}
+
+.logo-color {
+    color: #2196F3;
+}
+
+.site-nav {
+    text-decoration: none;
+}
+
+.hpage-header {
+    font-style: normal;
+    font-weight: 500;
+    color: #212121;
+}
