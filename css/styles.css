@@ -12,6 +12,10 @@ body {
   color: var(--header-color-text);
 }
 
+.site-nav .current {
+  color: var(--focus-color-text);
+}
+
 ul {
   list-style-type: none;
 }
