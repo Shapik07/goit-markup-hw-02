@@ -42,7 +42,9 @@ ul {
 .portfolio-btn:hover,
 .contacts-btn:hover,
 .mail-btn:hover,
-.tel-btn:hover {
+.tel-btn:hover,
+.mail-btn-footer:hover,
+.tel-btn-footer:hover {
   color: var(--focus-color-text);
 }
 
@@ -50,7 +52,9 @@ ul {
 .portfolio-btn:focus,
 .contacts-btn:focus,
 .mail-btn:focus,
-.tel-btn:focus {
+.tel-btn:focus,
+.mail-btn-footer:focus,
+.tel-btn-footer:focus {
   color: var(--focus-color-text);
 }
 
@@ -69,7 +73,8 @@ ul {
 
 /* Main */
 
-.work .team {
+.work,
+.team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -79,14 +84,36 @@ ul {
 /* Секция-Герой */
 
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 .hero-btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
   background-color: var(--focus-color-text);
   color: #ffffff;
   cursor: pointer;
+}
+
+.hero-btn:focus {
+  background-color: #188CE8;
+}
+
+.hero-btn:hover {
+  background-color: #188CE8;
 }
 
 /* Секция преимуществ */
@@ -94,7 +121,7 @@ ul {
 .Advantages-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--header-color-text);
 }
@@ -102,7 +129,7 @@ ul {
 .Advantages-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--contacts-text-color);
 }
@@ -114,7 +141,7 @@ ul {
 .workers {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--header-color-text);
 }
@@ -122,7 +149,7 @@ ul {
 .Position {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--contacts-text-color);
 }
@@ -134,8 +161,16 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   color: #ffffff;
+}
+
+.mail-btn-footer,
+.tel-btn-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Портфолио */
@@ -166,6 +201,6 @@ ul {
 .list-position {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 88;
+  line-height: 1.88;
   color: var(--contacts-text-color);
 }
