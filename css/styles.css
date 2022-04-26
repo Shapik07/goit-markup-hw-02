@@ -2,12 +2,13 @@
     --primery-background-color: #E5E5E5;
     --contacts-text-color: #757575;
     --header-color-text: #212121;
-    --focus-color-text: #2196F3
+    --focus-color-text: #2196F3;
+    --logo-color: #000000
 }
 
 body {
-    font-family: 'Roboto';
-    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     color: var(--header-color-text);
 }
 
@@ -24,8 +25,9 @@ ul {
 }
 
 .logo {
-    color: #000000;
-    font-family: 'Raleway';
+    color: var(--logo-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
 }
 
 .logo-color {
@@ -36,7 +38,7 @@ ul {
     text-decoration: none;
 }
 
-.Studio-btn:hover,
+.studio-btn:hover,
 .portfolio-btn:hover,
 .contacts-btn:hover,
 .mail-btn:hover,
@@ -44,7 +46,7 @@ ul {
     color: var(--focus-color-text);
 }
 
-.Studio-btn:focus,
+.studio-btn:focus,
 .portfolio-btn:focus,
 .contacts-btn:focus,
 .mail-btn:focus,
@@ -58,9 +60,10 @@ ul {
     text-decoration: none;
 }
 
-.contacts-nav a {
+.mail-btn,
+.tel-btn {
     font-weight: 500;
-    color: var(--header-color-text);
+    color: var(--contacts-text-color);
     text-decoration: none;
 }
 
