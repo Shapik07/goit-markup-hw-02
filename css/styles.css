@@ -4,6 +4,9 @@
   --header-color-text: #212121;
   --focus-color-text: #2196f3;
   --logo-color: #000000;
+  --white-color-text: #ffffff;
+  --button-color: #f5f4fa;
+  --foter-bg-color: #2F303A;
 }
 
 body {
@@ -36,6 +39,10 @@ ul {
 
 .logo-color {
   color: var(--focus-color-text);
+}
+
+.footer-logo-color {
+  color: var(--white-color-text);
 }
 
 .site-nav {
@@ -71,7 +78,7 @@ ul {
 .mail-btn,
 .tel-btn {
   font-weight: 500;
-  color: var(--contacts-text-color);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
@@ -86,6 +93,10 @@ ul {
 }
 
 /* Секция-Герой */
+
+.hero {
+  background-color: var(--foter-bg-color);
+}
 
 .hero-title {
   font-weight: 900;
@@ -113,11 +124,11 @@ ul {
 }
 
 .hero-btn:focus {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 .hero-btn:hover {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 /* Секция преимуществ */
@@ -177,19 +188,28 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
+footer {
+  background-color: var(--foter-bg-color);
+}
+
 /* Портфолио */
 
 .list-button {
-  background-color: #f5f4fa;
-  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--button-color);
+  color: var(--header-color-text);
   cursor: pointer;
 }
 
 .list-button:hover {
+  color: var(--white-color-text);
   background-color: var(--focus-color-text);
 }
 
 .list-button:focus {
+  color: var(--white-color-text);
   background-color: var(--focus-color-text);
 }
 
