@@ -234,3 +234,8 @@ footer {
   line-height: 1.88;
   color: var(--contacts-text-color);
 }
+
+.list .current {
+  background-color: var(--focus-color-text);
+  color: var(--white-color-text);
+}
