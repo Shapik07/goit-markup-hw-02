@@ -6,7 +6,8 @@
   --logo-color: #000000;
   --white-color-text: #ffffff;
   --button-color: #f5f4fa;
-  --foter-bg-color: #2F303A;
+  --footer-bg-color: #2F303A;
+  --accent-hero-button: #188ce8;
 }
 
 body {
@@ -100,7 +101,7 @@ ul {
 /* Секция-Герой */
 
 .hero {
-  background-color: var(--foter-bg-color);
+  background-color: var(--footer-bg-color);
 }
 
 .hero-title {
@@ -111,7 +112,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white-color-text);
 }
 
 .hero-btn {
@@ -124,16 +125,16 @@ ul {
   left: 700px;
   top: 430px;
   background-color: var(--focus-color-text);
-  color: #ffffff;
+  color: var(--white-color-text);
   cursor: pointer;
 }
 
 .hero-btn:focus {
-  background-color: #188ce8;
+  background-color: var(--accent-hero-button);
 }
 
 .hero-btn:hover {
-  background-color: #188ce8;
+  background-color: var(--accent-hero-button);
 }
 
 /* Секция преимуществ */
@@ -182,7 +183,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: #ffffff;
+  color: var(--white-color-text);
 }
 
 .mail-btn-footer,
@@ -195,7 +196,7 @@ ul {
 }
 
 footer {
-  background-color: var(--foter-bg-color);
+  background-color: var(--footer-bg-color);
 }
 
 /* Портфолио */
