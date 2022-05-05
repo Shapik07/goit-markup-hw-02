@@ -145,6 +145,9 @@ ul {
   background-color: var(--focus-color-text);
   color: var(--white-color-text);
   cursor: pointer;
+  margin-right: 700px;
+  margin-bottom: 200px;
+  margin-left: 700px;
 }
 
 .hero-btn:focus {
@@ -156,6 +159,12 @@ ul {
 }
 
 /* Секция преимуществ */
+
+.Advantages {
+  display: inline-block;
+  margin: 0;
+  display: flex;
+}
 
 .Advantages-title {
   font-weight: 700;
