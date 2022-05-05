@@ -6,7 +6,7 @@
   --logo-color: #000000;
   --white-color-text: #ffffff;
   --button-color: #f5f4fa;
-  --footer-bg-color: #2F303A;
+  --footer-bg-color: #2f303a;
   --accent-hero-button: #188ce8;
 }
 
@@ -41,6 +41,10 @@ ul {
   color: var(--logo-color);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
+  margin-right: 95px;
+  margin-top: 25px;
+  margin-left: 215px;
+  margin-bottom: 25px;
 }
 
 .logo-color {
@@ -53,6 +57,12 @@ ul {
 
 .site-nav {
   text-decoration: none;
+  padding-left: 0px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
 }
 
 .studio-btn:hover,
@@ -101,6 +111,8 @@ ul {
 /* Секция-Герой */
 
 .hero {
+  width: 1600px;
+  height: 600px;
   background-color: var(--footer-bg-color);
 }
 
@@ -113,6 +125,12 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color-text);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 200px;
+  padding-right: 450px;
+  padding-bottom: 30px;
+  padding-left: 450px;
 }
 
 .hero-btn {
@@ -193,6 +211,29 @@ ul {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+
+.contacts-nav-header {
+  padding-left: 0px;
+  margin-left: auto;
+}
+
+.site-nav,
+.contacts-nav-header {
+  display: flex;
+}
+
+.site-nav .item {
+  margin-right: 50px;
+}
+
+.contacts-nav-header .item + .item {
+  margin-left: 50px;
+}
+
+.site-nav .item:last-child,
+.contacts-nav-header .item:last-child {
+  margin-right: 0;
 }
 
 footer {
